@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
-@media (max-width: 960px) {
-  body{
-  background-color: #F6EBCB;
-  font-family:'Open Sans';
-  line-height: 25px;
-  letter-spacing: 0.5px;
-}
 
 
 h1{
@@ -74,12 +67,19 @@ a:hover{
   background-color:#F8D34F;
   border-radius: 10%;
 }
-}
 
+@media (max-width: 960px) {
+  body{
+  background-color: #F6EBCB;
+  font-family:'Open Sans';
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  }
+}
 @media (max-width: 540px){
   #button-style{
-   width: 50vw;
-   height: 50vh;
+    width: 50vw;
+    height: 50vh;
    background-color: gold;
    border-radius: 5px solid blue;
   }
