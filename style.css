@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
-
+body{
+  background-color: #F6EBCB;
+  font-family:'Open Sans';
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  }
 
 h1{
   color: #637E92;
@@ -68,14 +73,6 @@ a:hover{
   border-radius: 10%;
 }
 
-@media (max-width: 960px) {
-  body{
-  background-color: #F6EBCB;
-  font-family:'Open Sans';
-  line-height: 25px;
-  letter-spacing: 0.5px;
-  }
-}
 @media (max-width: 540px){
   #button-style{
     width: 50vw;
