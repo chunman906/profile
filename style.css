@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
-@media (max-width: 960px) {
-  body{
+@import url("nav.css");
+
+body{
   background-color: #F6EBCB;
   font-family:'Open Sans';
   line-height: 25px;
   letter-spacing: 0.5px;
-}
+  }
 
 
 h1{
@@ -39,6 +40,12 @@ a:hover{
 
 .box-shadow {
   box-shadow:10px 10px 10px #F8D34F;
+}
+
+.nav {
+  width: 80vw;
+  margin: 20px auto;
+  padding: 20px;
 }
 
 .img-circle{
@@ -74,12 +81,11 @@ a:hover{
   background-color:#F8D34F;
   border-radius: 10%;
 }
-}
 
 @media (max-width: 540px){
   #button-style{
-   width: 50vw;
-   height: 50vh;
+    width: 50vw;
+    height: 50vh;
    background-color: gold;
    border-radius: 5px solid blue;
   }
