@@ -42,10 +42,10 @@ a:hover{
   box-shadow:10px 10px 10px #F8D34F;
 }
 
-.nav {
+.card-top {
   width: 80vw;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 .img-circle{
@@ -56,10 +56,10 @@ a:hover{
   text-align: center;
 }
 
-.card {
+.card-body {
   width: 80vw;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 30px;
+  padding: 35px;
 }
 
 .list-inline {
