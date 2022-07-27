@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
-
 @import url("nav.css");
 
 body{
@@ -42,21 +41,19 @@ a:hover{
   box-shadow:10px 10px 10px #F8D34F;
 }
 
-.card-top {
-  width: 80vw;
-  margin: 20px auto;
-  padding: 30px;
-}
-
 .img-circle{
   border-radius: 30%;
+}
+
+.text-container {
+  padding: 35px;
 }
 
 .text-center {
   text-align: center;
 }
 
-.card-body {
+.card {
   width: 80vw;
   margin: 30px;
   padding: 35px;
