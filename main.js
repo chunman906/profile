@@ -1,23 +1,23 @@
-const myForm = document.querySelector('#my-form');
-const nameInput = document.querySelector('#name');
-const passwordInput = document.querySelector('#password');
-const emailInput = document.querySelector('#email');
-const msg = document.querySelector('.msg');
+// const myForm = document.querySelector('#my-form');
+// const nameInput = document.querySelector('#name');
+// const passwordInput = document.querySelector('#password');
+// const emailInput = document.querySelector('#email');
+// const msg = document.querySelector('.msg');
 
 
 
-myForm.addEventListener('submit', onSubmit);
+// myForm.addEventListener('submit', onSubmit);
 
-function onSubmit(e){
-  e.preventDefault();
-  if (nameInput.value === '' || passwordInput.value === '') {
-    msg.classList.add('error');
-    msg.style.background = '#333';
-    msg.innerHTML = 'Your input is empty!';
-  } else {
-    console.log('success!');
-  }
-}
+// function onSubmit(e){
+//   e.preventDefault();
+//   if (nameInput.value === '' || passwordInput.value === '') {
+//     msg.classList.add('error');
+//     msg.style.background = '#333';
+//     msg.innerHTML = 'Your input is empty!';
+//   } else {
+//     console.log('success!');
+//   }
+// }
 
 // Event Listener
 // button.addEventListener('click', (e) => {
