@@ -82,6 +82,32 @@ a:hover{
   border-radius: 10%;
 }
 
+#my-form{
+
+}
+
+.msg{
+
+}
+
+#name{
+
+}
+
+#password{
+
+}
+
+#email{
+
+}
+
+.btn-submit{
+  background-color: rgba(21, 0, 255, 0.937);
+  border-radius: 10%;
+  padding: 10px;
+}
+
 @media (max-width: 540px){
   #button-style{
     width: 50vw;
