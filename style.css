@@ -14,13 +14,12 @@ body{
 
 h1{
   color: #637E92;
-  font-size: 36px;
 }
 
 h2{
   color: #825E4A;
-  font-size: 28px;
-  line-height: 35px;
+  /* font-size: 28px;
+  line-height: 35px; */
 }
 
 a{
@@ -48,6 +47,7 @@ a:hover{
   border-radius: 30%;
 }
 
+
 .text-container {
   padding: 35px;
 }
@@ -60,6 +60,10 @@ a:hover{
   width: 80vw;
   margin: 30px;
   padding: 35px;
+}
+
+.text-center h1 {
+  font-size: 28px;
 }
 
 .list-inline {
