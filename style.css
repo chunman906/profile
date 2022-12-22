@@ -18,8 +18,6 @@ h1{
 
 h2{
   color: #825E4A;
-  /* font-size: 28px;
-  line-height: 35px; */
 }
 
 a{
@@ -37,6 +35,7 @@ a:hover{
   margin: 32px;
   margin-right: 16px;
   padding: 10px;
+  height: 90vh;
 }
 
 .box-shadow {
@@ -44,7 +43,7 @@ a:hover{
 }
 
 .img-circle{
-  border-radius: 30%;
+  border-radius: 40%;
 }
 
 
@@ -56,15 +55,24 @@ a:hover{
   text-align: center;
 }
 
-.card {
-  width: 80vw;
-  margin: 30px;
-  padding: 35px;
-}
-
 .text-center h1 {
   font-size: 28px;
 }
+
+.card {
+  width: 80vw;
+  margin: 30px;
+}
+
+.card-small {
+  margin: 20px;
+  padding: 35px;
+}
+
+.text-box {
+  display: flex;
+}
+
 
 .list-inline {
   list-style: none;
@@ -86,30 +94,17 @@ a:hover{
   border-radius: 10%;
 }
 
-#my-form{
-
-}
-
-.msg{
-
-}
-
-#name{
-
-}
-
-#password{
-
-}
-
-#email{
-
-}
-
+ /* button */
 .btn-submit{
   background-color: rgba(21, 0, 255, 0.937);
   border-radius: 10%;
   padding: 10px;
+}
+
+.btn-large{
+  background-color: rgba(0, 255, 183, 0.937);
+  border-radius: 20%;
+  padding: 24px;
 }
 
 @media (max-width: 540px){
