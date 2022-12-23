@@ -44,6 +44,10 @@ a:hover{
 
 .img-circle{
   border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 
@@ -65,7 +69,15 @@ a:hover{
 }
 
 .card-small {
-  margin: 20px;
+  margin: 25px;
+  padding: 35px;
+}
+
+.card-large {
+  width: 70vw;
+  display: block;
+  margin: 25px;
+  margin-top: 40px;
   padding: 35px;
 }
 
@@ -102,10 +114,12 @@ a:hover{
 }
 
 .btn-large{
-  background-color: rgba(0, 255, 183, 0.937);
-  border-radius: 20%;
+  background-color: rgba(191, 99, 0, 0.937);
+  border-radius: 10%;
   padding: 24px;
+  color:#F8D34F;
 }
+
 
 @media (max-width: 540px){
   #button-style{
