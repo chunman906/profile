@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 @import url("nav.css");
+@import url("tabs.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,7 +36,7 @@ a:hover{
   margin: 32px;
   margin-right: 16px;
   padding: 10px;
-  height: 90vh;
+  height: 110%;
 }
 
 .box-shadow {

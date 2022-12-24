@@ -1,0 +1,13 @@
+.tabs{
+  background-color: rgb(202, 158, 38);
+}
+
+.tabs .container-small{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+
+.container-small{
+  height: auto;
+}
