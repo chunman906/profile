@@ -12,15 +12,6 @@ body{
   letter-spacing: 0.5px;
   }
 
-
-h1{
-  color: #637E92;
-}
-
-h2{
-  color: #825E4A;
-}
-
 a{
   color: #E0A500;
   text-decoration: none;
@@ -79,6 +70,11 @@ a:hover{
   padding: 35px;
 }
 
+.container .card-large {
+  display: block;
+  padding: 35px 35px 10px 35px;
+}
+
 .text-box {
   display: flex;
 }
@@ -103,6 +99,25 @@ a:hover{
   background-color:#F8D34F;
   border-radius: 10%;
 }
+
+/* text style */
+h1{
+  color: #637E92;
+}
+
+h2{
+  color: #825E4A;
+}
+
+p{
+  color: #212b336a;
+}
+
+.text-large {
+  font-size: 20px;
+}
+
+
 
  /* button */
 .btn-submit{

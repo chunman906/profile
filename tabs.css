@@ -1,6 +1,6 @@
 .tabs{
-  background-color: rgb(202, 158, 38);
   height: auto;
+  margin-left: 40px;
 }
 
 .tabs .container-small{
@@ -13,4 +13,5 @@
 
 .container-small{
   height: auto;
+  margin: 16px;
 }
