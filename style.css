@@ -12,17 +12,6 @@ body{
   letter-spacing: 0.5px;
   }
 
-a{
-  color: #E0A500;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-a:hover{
-  color: #FFBE0B;
-}
-
 .container{
   margin: 32px;
   margin-right: 16px;
@@ -117,7 +106,10 @@ p{
   font-size: 20px;
 }
 
-
+/* footer */
+.footer {
+ background-color: #f1c111;
+}
 
  /* button */
 .btn-submit{
@@ -127,10 +119,21 @@ p{
 }
 
 .btn-large{
-  background-color: rgba(191, 99, 0, 0.937);
+  background-color: #f1c111;
   border-radius: 10%;
   padding: 24px;
-  color:#F8D34F;
+  color:rgba(191, 99, 0, 0.937)
+}
+
+a{
+  color: #E0A500;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a:hover{
+  color: #999
 }
 
 
