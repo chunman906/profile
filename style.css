@@ -19,6 +19,10 @@ body{
   height: 70vh;
 }
 
+.extend-h{
+height: 90vh;
+}
+
 .box-shadow {
   box-shadow:10px 10px 10px #F8D34F;
 }
@@ -40,10 +44,15 @@ body{
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center h1 {
   font-size: 28px;
 }
 
+/* card */
 .card {
   width: 80vw;
   margin: 30px;
@@ -63,6 +72,19 @@ body{
   display: block;
   padding: 35px 35px 10px 35px;
 }
+
+.card-flex {
+  display: flex;
+}
+
+.c-border{
+  box-shadow:10px 10px 10px 10px #f9e59b
+}
+
+.pad-sm{
+  padding: 16px;
+}
+
 
 .text-box {
   display: flex;
@@ -131,11 +153,11 @@ p{
   background-color: #f1c111;
   border-radius: 10%;
   padding: 24px;
-  color:rgba(191, 99, 0, 0.937)
+  color:#999
 }
 
 .card-small a:hover{
-  color: #999
+  color: black;
 }
 
 a{

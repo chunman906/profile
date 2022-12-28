@@ -42,7 +42,7 @@
       <div id="about-me" class="card-large text-center">
         <h1> < About me ./> </h1>
         <div class="text-large card">
-          <p>
+          <p class="font-normal text-gray-700 mb-3">
             "My name is <strong>Man Poon</strong>, I currently live in London and keep learning
             web development. I started learning web dev and coding in the beginning of 2022 and gained
             hand-on expereience with <strong>Ruby on Rails, JavaScript, SQL, HTML and CSS</strong> from coding bootcamp
@@ -112,18 +112,24 @@
           </div>
       </section>
     </div>
-    <div class="container">
+    <div class="container extend-h">
       <div id="portfolio" class="card-large text-center">
         <h1> < Projects Porfolio ./> </h1>
-        <div class="text-large card">
-          <h3><strong>Lingo Buddy</strong></h3>
-          <img alt="lingo Buddy" src="./images/LingoBuddy_pic.png">
-          <p></p>
-        </div>
-        <div class="text-large card">
-          <h3><strong>Vintage Wheels</strong></h3>
-          <img alt="Vintage Wheels" src="./images/VintageWheels_pic.png">
-          <p></p>
+        <div class="card-flex">
+          <div class="text-large card c-border pad-sm">
+            <img class="rounded-t-lg" alt="lingo Buddy" src="./images/LingoBuddy_pic.png" width="600px">
+            <h3 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 mt-3">Lingo Buddy 💻</h3>
+            <p class="font-normal text-gray-700 mb-3 text-left">Team project created for helping user to learn new language
+              by meeting up with local fluent speakers. It has been built with Ruby on Rails and JavaScript, and
+              implemented booking and review system, search bar, geocode-map API and google translator API.</p>
+          </div>
+          <div class="text-large card c-border pad-sm">
+            <img class="rounded-t-lg" alt="Vintage Wheels" src="./images/VintageWheels_pic.png" width="600px">
+            <h3 class="text-gray-900 font-bold text-2xl tracking-tight mb-2 mt-3">Vintage Wheels 🚘</h3>
+            <p class="font-normal text-gray-700 mb-3 text-left">Team project created for making online marketplace rental for vintage cars.
+              It has been built with Ruby on Rails and implemented booking system, search bar and geocode-map API
+              and user authentication.</p>
+          </div>
         </div>
       </div>
     </div>
