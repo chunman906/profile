@@ -111,6 +111,10 @@ height: 90vh;
   border-radius: 10%;
 }
 
+.background-banner {
+  background-image: url(./images/coffee_bg.png);
+}
+
 /* text style */
 h1{
   color: #637E92;
