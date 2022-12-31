@@ -55,6 +55,10 @@ height: 90vh;
   font-size: 28px;
 }
 
+.margin-right {
+  margin-right: 3rem;
+}
+
 /* card */
 .card {
   width: 80vw;
@@ -83,7 +87,7 @@ height: 90vh;
 }
 
 .c-border{
-  box-shadow:10px 10px 10px 10px #f9e59b
+  box-shadow:10px 10px 10px 10px #f9e59b;
 }
 
 .pad-sm{
@@ -127,7 +131,8 @@ height: 90vh;
 
 /* text style */
 h1{
-  color: #637E92;
+  color: #475560;
+  /* color: #637E92; */
 }
 
 h2{
@@ -167,7 +172,7 @@ p{
   background-color: #f1c111;
   border-radius: 10%;
   padding: 24px;
-  color:#999
+  color:#637E92;
 }
 
 .card-small a:hover{
