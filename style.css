@@ -190,6 +190,10 @@ a:hover{
   color: #f1c111;
 }
 
+.list-inline a:hover{
+  color: black;
+}
+
 
 @media (max-width: 540px){
   #button-style{
