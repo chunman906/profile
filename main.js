@@ -7,9 +7,13 @@
 // };
 
 
-let day = 20;
+let list = ['apple', 'orange']
 
-let color = day !== 20 ? "red" : "green" ;
+list[2] = 'chips'
+
+list[list.length] = 'beer'
+
+list.shift()
 
 // switch(day){
 //   case 1:

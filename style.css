@@ -66,6 +66,12 @@ height: 90vh;
   z-index: 2;
 }
 
+.card-2 {
+  width: 20vw;
+  padding: 40px;
+  z-index: 2;
+}
+
 .card-small {
   margin: 25px;
   padding: 35px;
@@ -84,6 +90,11 @@ height: 90vh;
 
 .card-flex {
   display: flex;
+}
+
+.card-center {
+  justify-content: center;
+  align-items: center;
 }
 
 .c-border{
