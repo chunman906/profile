@@ -72,6 +72,12 @@ height: 90vh;
   z-index: 2;
 }
 
+.card-3 {
+  width: 80vw;
+  margin: 40px;
+  z-index: 2;
+}
+
 .card-small {
   margin: 25px;
   padding: 35px;
