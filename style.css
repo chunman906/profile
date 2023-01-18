@@ -169,6 +169,10 @@ p{
   font-size: 20px;
 }
 
+#font-text {
+  font-size: 20px;
+}
+
 /* footer */
 .footer {
  background-color: #f1c111;
@@ -218,5 +222,11 @@ a:hover{
     height: 50vh;
    background-color: gold;
    border-radius: 5px solid blue;
+  }
+}
+
+@media (max-width: 1040px) {
+  #font-text{
+    font-size: 16px;
   }
 }
