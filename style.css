@@ -55,10 +55,18 @@ height: 90vh;
   font-size: 28px;
 }
 
+/* margin */
 .margin-right {
   margin-right: 3rem;
 }
 
+.margin-left {
+  margin-left: 4.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 96px;
+}
 /* card */
 .card {
   width: 80vw;
@@ -216,6 +224,18 @@ a:hover{
 }
 
 
+@media (max-width: 1040px) {
+  #font-text{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  #font-text{
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 540px){
   #button-style{
     width: 50vw;
@@ -223,10 +243,8 @@ a:hover{
    background-color: gold;
    border-radius: 5px solid blue;
   }
-}
 
-@media (max-width: 1040px) {
   #font-text{
-    font-size: 16px;
+    font-size: 4px;
   }
 }
